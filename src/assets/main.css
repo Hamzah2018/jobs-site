@@ -1,0 +1,322 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800&family=Lato:wght@100;300;400;700;900&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+/* @font-face { */
+    /* font-family: 'Tajawal'; */
+    /* src: url("../fonts/Tajawal-Regular.ttf"); */
+/* } */
+body{
+    font-family: 'Tajawal', sans-serif;
+    /* background-color: #F1F1F2; */
+}
+
+:root {
+    --main-color: #065f46;
+    --hover-color: #87cab2;
+    --font-color: #777;
+    /* --font-color:#fbbf24; */
+    /* --font-color: #fde047; */
+    /* --font-color: #ebcf46; */
+    --font-color: #ebcf46;
+    --second-font-color: #fef9c3;
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+}
+
+* {
+    /* color:    var(--color-one); */
+    font-family: lato;
+    line-height: 30px;
+}
+
+a {
+    color: rgb(253, 238, 151);
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: var(--main-color);
+    color: white !important;
+
+}
+
+.navbar-nav a {
+    color: var(--second-font-color) !important;
+}
+
+.card-body {
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: #87cab2;
+}
+
+.fried img {
+    height: 120px;
+}
+
+@media (max-width:700px) {
+    .frieds {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:993px) {
+    .adver {
+        margin-left: 3.125rem !important;
+    }
+}
+
+@media (max-width:576pxpx) {
+    .adver {
+        margin-left: 0px !important;
+    }
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.card_of_jobs>aside>div> {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.sidebar-dashbord {
+    width: 40%;
+
+}
+
+.sidebar-dashbord div {
+    width: 100%;
+}
+
+.sidebar-dashbord a {
+    top: 40px;
+    background-color: #ccfbf1;
+    color: green;
+    width: 96%;
+    margin: auto;
+    border-radius: 6% !important;
+    /* border: yellow;
+    border-style: dashed;
+    border-width: 20px; */
+}
+
+.bg-dashbord {
+    /* rgb(35, 206, 107) */
+    color: #766DF4 !important;
+    /* background-color: #047857 !important; */
+    background-color: var(--main-color) !important;
+    /* #0d9488 */
+    border: white;
+    border-style: none none solid;
+    border-width: 10px;
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+}
+
+/* Main Section */
+main {
+    color: var(--font-color);
+    /* background-color: rebeccapurple; */
+    /* margin-left: var(--offcanvas-width); */
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+main .row .card {
+    color: var(--font-color) !important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: hidden;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    max-height: 220px;
+    min-width: 350px;
+    /* background-color: #fefce8 !important; */
+    /* background-color: #232b2a !important; */
+    background-color: #232b2a !important;
+}
+main .row .card-title{
+    font-weight: 800;
+    color: #fff	;
+}
+main  .card .btn { 
+    margin-right: auto !important;
+    margin-left: 35%;
+}
+
+
+.card-body {
+    color: var(--font-color) !important;
+}
+/* End main Secrion */
+
+
+/* footer */
+footer {
+    background-color: #023020;
+    color: var(--second-font-color) !important;
+}
+
+/* footer */
+
+.about-us-section {
+    width: 100%;
+    padding: clacl(5% + 30px) 0px;
+}
+
+.about-us-section .img-head {
+    position: relative;
+    overflow:hidden;
+}
+
+.about-us-section .img-head img {
+    width: 100%;
+    transition:transform .3s;
+}
+
+.about-us-section .img-head:hover img{
+    transform: scale(1.2);
+}
+.about-us-section .img-head::after{
+    content:"";
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, var(--colorOne),var(--colorTwo));
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+}
+.about-us-section .text-head{
+    font-size: 28px;
+    color: var(--colorTwo)
+}
+.about-us-section .break-small{
+    width: 80px;
+    height: 3px;
+    background-color: var(--colorTwo);
+}
+.about-us-section .text-para{
+    font-size: 16px;
+    color: #444;
+}
+.about-us-section .box{
+    background-color: var(--colorTwo);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.about-us-section .box i{
+    font-size: 42px;
+}
+.about-us-section .box h4{
+    font-size: 14px;
+}
+.about-us-section .box p{
+    font-size: 22px;
+}
+.about-us-section .box::after,
+.about-us-section .box::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff5;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+.about-us-section .box::after{
+    left: -50px;
+    top: -50px;
+}
+.about-us-section .box::before{
+    right: -50%;
+    bottom: -50%;
+}
+.about-us-section .box:hover::after,
+.about-us-section .box:hover:before{
+    transform: scale(1.2);
+}
+.fw-light {
+    color: black !important;
+    font-weight: 300 !important;
+}
+
+.text-secondary{
+    color: var(--font-color) !important;
+}
+
+.fs-6{
+    font-size: 16px !important;
+}
+
+.btn-outline-success:hover{
+    /* background-color:#87cab2; */
+    background-color:black;
+  }
+  header{
+    position:relative; 
+    
+  }
+  header img{
+    height: 600px;
+    max-width: 100%;
+  }
+  .banner-search{
+    /*display: inline-block;*/
+    position: absolute;
+    top: 45%;
+    transform: translateX( 55%);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    width: 45%;
+    z-index: 9;
+    margin: 0 auto;
+    height:5rem;
+  }
+  @media (max-width:800px){
+    .banner-search{
+      width: 100%;
+      transform: translateX( 0%);
+      height:3rem;
+
+    }
+    .banner-search button{
+      display: none;
+    }
+  }
+  .banner-search input{
+    background-color: transparent;
+    width: 50% !important;
+  }
+  .banner-search button{
+    width: 30%;
+    background-color:#065F46;
+    border-color: #065F46;
+    color: yellow;
+    border-radius: 6px;
+    margin: 0 20px;
+    font-size: large;
+    opacity: 0.7;
+  }
+  .banner-search button:hover{
+    background-color: #065F46;
+    border-color: yellowgreen;
+    color: yellow;
+  }
+
+  .banner-search input:focus{
+    background-color: transparent;
+  }
+  .dropdown-menu  a{
+    color:#19283f !important;
+}
