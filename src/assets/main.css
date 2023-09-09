@@ -37,7 +37,15 @@ a {
 .navbar {
     background-color: var(--main-color);
     color: white !important;
-
+}
+.nav-link {
+    color:  #EEF9C3
+}
+.nav-link:hover{
+    color: rgb(253, 238, 151);
+    cursor: pointer;
+    background-color: #07644a;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .navbar-nav a {
@@ -137,10 +145,16 @@ main .row .card {
     padding-bottom: 5px;
     max-height: 220px;
     min-width: 350px;
+    /* width: 100%; */
     /* background-color: #fefce8 !important; */
     /* background-color: #232b2a !important; */
     background-color: #232b2a !important;
 }
+/* main .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    gap: 10px 5px;
+} */
 main .row .card-title{
     font-weight: 800;
     color: #fff	;
@@ -149,10 +163,9 @@ main  .card .btn {
     margin-right: auto !important;
     margin-left: 35%;
 }
-
-
 .card-body {
     color: var(--font-color) !important;
+    /* background-color: red; */
 }
 /* End main Secrion */
 

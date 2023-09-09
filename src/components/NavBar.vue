@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <router-link class="nav-link active" aria-current="page" to="/">Home</router-link> 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/site/jobs.html">Jobs</a>
+          <router-link class="nav-link" :to="{name : 'Job'}"> Jobs j </router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="pages/site/services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,6 +54,7 @@
   </div>
 </nav>
 <!--End menu section  -->
+<router-view/>
 </template>
 
 <script>
