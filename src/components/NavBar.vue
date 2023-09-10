@@ -12,7 +12,7 @@
           <router-link class="nav-link active" aria-current="page" to="/">Home</router-link> 
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" :to="{name : 'Job'}"> Jobs j </router-link>
+          <router-link class="nav-link" :to="{name : 'Job'}"> Jobs </router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="pages/site/services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
