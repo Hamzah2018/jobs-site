@@ -1,7 +1,7 @@
 <template>
     <section class="adver mt-4 col-ms-w-100">
         <div class="card border-dark col-md-w-100" style="width: 18rem; color: #000; font-weight: 700; " >
-          <img src="../assets/imges/goDady.png" class="card-img-top img-fluid" alt="...">
+          <img src="../../assets/imges/goDady.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class=" card-title text-dark text-truncate"  style="color: #000; font-weight: 900;">Looking for the best deals? You’re in the right place.</h5>
             <p class="card-text" style="color: #444;">There are countless coupon sites that claim to offer our best deals, but if you want promo codes for our deepest discounts – codes that actually work – this is the best place to find them. So let’s talk</p>

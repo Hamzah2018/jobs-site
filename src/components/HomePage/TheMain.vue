@@ -31,5 +31,8 @@ components:{
 </script>
 
 <style>
-
+main .row .card {
+    /* background-color: #232b2a !important; 
+   #B1F092*/
+ }
 </style>

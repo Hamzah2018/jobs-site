@@ -7,10 +7,10 @@
 
 <script>
 
-import ImgCarousel from '../components/ImgCarousel.vue'
-import TheSupporter from '../components/TheSupporter.vue'
-import TheMain from '../components/TheMain.vue'
-import ThePartener from '../components/ThePartener.vue'
+import ImgCarousel from '../components/HomePage/ImgCarousel.vue'
+import TheSupporter from '../components/HomePage/TheSupporter.vue'
+import TheMain from '../components/HomePage/TheMain.vue'
+import ThePartener from '../components/HomePage/ThePartener.vue'
 
 export default {
 name: 'HomeView',

@@ -33,7 +33,7 @@
       <div class="col-lg-1 col-0" style="color: #777 !important;">
         <div class="dropdown d-lg-inline-flex d-none" style="color: #777 !important;">
             <a class="dropdown-toggle text-center text-light mt-1" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
-                <img src="../assets/imges/me.jpg"  width="50%" class="img-fluid rounded-circle border border-2 border-secondary shadow-sm" alt="fdsfdsfds">
+                <img src="../../assets/imges/me.jpg"  width="50%" class="img-fluid rounded-circle border border-2 border-secondary shadow-sm" alt="fdsfdsfds">
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="pages/dashboard/protfile.html" 

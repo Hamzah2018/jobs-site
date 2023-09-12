@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
+import NavBar from './components/Layout/NavBar.vue'
 // HomePage
-import TheFooter from './components/TheFooter.vue'
+import TheFooter from './components/Layout/TheFooter.vue'
 
 export default {
   name: 'App',

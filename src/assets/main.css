@@ -18,6 +18,7 @@ body{
     /* --font-color: #fde047; */
     /* --font-color: #ebcf46; */
     --font-color: #ebcf46;
+    --font-color: #eba146;
     --second-font-color: #fef9c3;
     --dark-color: #19283f;
     --green-color: #33d1cc;
@@ -145,25 +146,27 @@ main .row .card {
     padding-bottom: 5px;
     max-height: 220px;
     min-width: 350px;
-    /* width: 100%; */
-    /* background-color: #fefce8 !important; */
-    /* background-color: #232b2a !important; */
-    background-color: #232b2a !important;
+
+    background-color: #e9eeff !important;
+    
 }
-/* main .row{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
-    gap: 10px 5px;
-} */
+main .row .card:hover{
+    background-color:  #dbe3fd !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+} 
+
 main .row .card-title{
     font-weight: 800;
-    color: #fff	;
+    color: #fff;
+    color: #232b2a	;
 }
 main  .card .btn { 
     margin-right: auto !important;
     margin-left: 35%;
 }
 .card-body {
+    color: var(--font-color) !important;
     color: var(--font-color) !important;
     /* background-color: red; */
 }
