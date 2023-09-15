@@ -144,7 +144,7 @@ main .row .card {
     overflow: hidden;
     border-radius: 4px;
     padding-bottom: 5px;
-    max-height: 220px;
+    /* max-height: 220px; */
     min-width: 350px;
 
     background-color: #e9eeff !important;
